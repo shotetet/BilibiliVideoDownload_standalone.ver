@@ -1,0 +1,26 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "commonjs",
+        "watch": true,
+        "sourceMap": true,
+        "rootDir": "./",
+        "strict": true,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "sourceRoot": "./",
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "files": [
+        "bilibili.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
